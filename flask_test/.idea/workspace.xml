@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4070d497-9556-40bf-bf0b-36a427784609" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/api_v1_0/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="629" column="33" lean-forward="true" selection-start-line="629" selection-start-column="33" selection-end-line="629" selection-end-column="33" />
+              <folding>
+                <element signature="n#block#0;n#!!top" />
+                <element signature="n#block#1;n#!!top" />
+                <element signature="n#section#2;n#div#0;n#div#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="665">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;assets</find>
+      <find>&quot;static/</find>
+      <find>&quot;static</find>
+      <find>home-page</find>
+      <find>book</find>
+      <find>search product</find>
+      <find>world</find>
+      <find>Free delivery</find>
+      <find>inner-top-50</find>
+      <find>登录</find>
+      <find>password</find>
+      <find>hezy</find>
+      <find>search-input form-control</find>
+      <find>footer-module-title</find>
+      <find>345</find>
+      <find>exampleInputEmail1</find>
+      <find>submit</find>
+      <find>button</find>
+      <find>.html</find>
+      <find>\.</find>
+      <find>_</find>
+      <find>ensure</find>
+      <find>(.*?):</find>
+      <find>:</find>
+      <find>Bestsellers</find>
+      <find>class=&quot;book&quot;</find>
+      <find>role=&quot;button&quot;</find>
+      <find>吴</find>
+      <find>&quot;assets/</find>
+      <find>&quot;/assets/</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;/static/img/</replace>
+      <replace>&quot;/static/js/</replace>
+      <replace>/image</replace>
+      <replace>&quot;static</replace>
+      <replace>&quot;static/</replace>
+      <replace>&quot;assets/</replace>
+      <replace>&quot;/static</replace>
+      <replace>/</replace>
+      <replace>_</replace>
+      <replace>\.</replace>
+      <replace>&quot;: &quot;</replace>
+      <replace>&quot;/static/</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_one.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/static/css/main.min.css" />
+        <option value="$PROJECT_DIR$/pager.py" />
+        <option value="$PROJECT_DIR$/forms.py" />
+        <option value="$PROJECT_DIR$/operate_mysql.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/urls.txt" />
+        <option value="$PROJECT_DIR$/csdn.html" />
+        <option value="$PROJECT_DIR$/tet.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/tst.py" />
+        <option value="$PROJECT_DIR$/templates/all-brands.html" />
+        <option value="$PROJECT_DIR$/templates/blog.html" />
+        <option value="$PROJECT_DIR$/templates/books.html" />
+        <option value="$PROJECT_DIR$/templates/blog-post.html" />
+        <option value="$PROJECT_DIR$/templates/categories.html" />
+        <option value="$PROJECT_DIR$/templates/contact.html" />
+        <option value="$PROJECT_DIR$/templates/error.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/templates/ihome.html" />
+        <option value="$PROJECT_DIR$/templates/magazine.html" />
+        <option value="$PROJECT_DIR$/templates/single-book.html" />
+        <option value="$PROJECT_DIR$/templates/about.html" />
+        <option value="$PROJECT_DIR$/views.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/app/main/__init__.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/bookshop/__init__.py" />
+        <option value="$PROJECT_DIR$/shop/api_v1_0/__init__.py" />
+        <option value="$PROJECT_DIR$/shop/__init__.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="E:/python基础阶段/Day18代码/test11-基于udp协议与飞q的通信.py" />
+        <option value="E:/python基础阶段/Day19代码/test02-基于TCP协议的套接字通信(服务端).py" />
+        <option value="E:/python基础阶段/Day19代码/test02-基于TCP协议的套接字通信(客户端).py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="36" />
+    <option name="y" value="71" />
+    <option name="width" value="1385" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="flask_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_test" type="462c0819:PsiDirectoryNode" />
+              <item name="shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flask_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flask_test" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\flask_test\static\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\flask_test" />
+      <recent name="D:\flask_test\app" />
+      <recent name="D:\flask_test\app\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Flask server.flask_test">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/flask_test/templates/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="test02-基于TCP协议的套接字通信(服务端)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/python基础阶段/Day19代码" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/python基础阶段/Day19代码/test02-基于TCP协议的套接字通信(服务端).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test02-基于TCP协议的套接字通信(客户端)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/python基础阶段/Day19代码" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/python基础阶段/Day19代码/test02-基于TCP协议的套接字通信(客户端).py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test11-基于udp协议与飞q的通信" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="E:/python基础阶段/Day18代码" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:/python基础阶段/Day18代码/test11-基于udp协议与飞q的通信.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tst" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flask_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tst.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (manage.py)" type="Python.FlaskServer" nameIsGenerated="true">
+      <module name="flask_test" />
+      <option name="target" value="$PROJECT_DIR$/manage.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\Anaconda3\envs\FlaskPath\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="flask_test" type="Python.FlaskServer">
+      <module name="flask_test" />
+      <option name="target" value="$PROJECT_DIR$/manage.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\Administrator\Anaconda3\envs\FlaskPath\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.flask_test" />
+      <item itemvalue="Flask server.Flask (manage.py)" />
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Python.tst" />
+      <item itemvalue="Python.test11-基于udp协议与飞q的通信" />
+      <item itemvalue="Python.test02-基于TCP协议的套接字通信(服务端)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.test02-基于TCP协议的套接字通信(服务端)" />
+        <item itemvalue="Python.test11-基于udp协议与飞q的通信" />
+        <item itemvalue="Python.tst" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4070d497-9556-40bf-bf0b-36a427784609" name="Default Changelist" comment="" />
+      <created>1572592221793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572592221793</updated>
+      <workItem from="1572592222889" duration="2316000" />
+      <workItem from="1572596298183" duration="9930000" />
+      <workItem from="1572659813602" duration="3828000" />
+      <workItem from="1572762228602" duration="3350000" />
+      <workItem from="1572827671361" duration="3387000" />
+      <workItem from="1572866580943" duration="7315000" />
+      <workItem from="1572914319890" duration="14050000" />
+      <workItem from="1572959876509" duration="4788000" />
+      <workItem from="1573038294161" duration="10531000" />
+      <workItem from="1573094851616" duration="4979000" />
+      <workItem from="1573556314065" duration="1795000" />
+      <workItem from="1573558166724" duration="26000" />
+      <workItem from="1573558194455" duration="10303000" />
+      <workItem from="1573612764208" duration="28000" />
+      <workItem from="1573976033063" duration="15000" />
+      <workItem from="1573976049855" duration="6492000" />
+      <workItem from="1574037070276" duration="39239000" />
+      <workItem from="1574169427936" duration="46404000" />
+      <workItem from="1574323013030" duration="1380000" />
+      <workItem from="1574334898893" duration="27443000" />
+      <workItem from="1574596229856" duration="599000" />
+      <workItem from="1574650888709" duration="27000" />
+      <workItem from="1574651275662" duration="2697000" />
+      <workItem from="1574660588579" duration="7235000" />
+      <workItem from="1574668836956" duration="4496000" />
+      <workItem from="1574689307358" duration="200000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="212853000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1762481" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.04901961" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27450982" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.501634" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.16503268" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16944024" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.2124183" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27450982" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.501634" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3382353" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/flask_test$manage.coverage" NAME="manage Coverage Results" MODIFIED="1572955510908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_test$test.coverage" NAME="test Coverage Results" MODIFIED="1574321367904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_test$operate_mysql.coverage" NAME="operate_mysql Coverage Results" MODIFIED="1574161299514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_test$tst.coverage" NAME="tst Coverage Results" MODIFIED="1574387690353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_test$test02_TCP__.coverage" NAME="test02-基于TCP协议的套接字通信(客户端) Coverage Results" MODIFIED="1574685605580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python基础阶段/Day19代码" />
+    <SUITE FILE_PATH="coverage/flask_test$test11_udpq.coverage" NAME="test11-基于udp协议与飞q的通信 Coverage Results" MODIFIED="1574685298214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python基础阶段/Day18代码" />
+    <SUITE FILE_PATH="coverage/flask_test$tet.coverage" NAME="tet Coverage Results" MODIFIED="1574319695551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_test$flask_test.coverage" NAME="flask_test Coverage Results" MODIFIED="1574651344244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/flask_test$Flask__manage_py_.coverage" NAME="Flask (manage.py) Coverage Results" MODIFIED="1573557962952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://E:/Blog/PersonBlog/Article/templates/article/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5662" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/1622289560/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-489">
+          <caret line="2977" column="6" selection-start-line="2977" selection-start-column="6" selection-end-line="2977" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FlaskPath/Lib/site-packages/sqlalchemy/event/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FlaskPath/Lib/site-packages/flask_sqlalchemy/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/operate_mysql.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FlaskPath/Lib/site-packages/werkzeug/datastructures.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="313" selection-start-line="313" selection-end-line="313" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FlaskPath/Lib/site-packages/flask/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="122" column="52" lean-forward="true" selection-start-line="122" selection-start-column="52" selection-end-line="122" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FlaskPath/Lib/site-packages/requests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2204" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FlaskPath/Lib/site-packages/requests/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1957">
+          <caret line="103" column="4" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../爬虫学习/renting/renting/spiders/ziroomspider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="29" column="36" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FlaskPath/Lib/site-packages/flask_script/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="395" column="55" lean-forward="true" selection-start-line="395" selection-start-column="55" selection-end-line="395" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixin.html" />
+    <entry file="file://$PROJECT_DIR$/tet.py" />
+    <entry file="file://$PROJECT_DIR$/csdn.html" />
+    <entry file="file://$PROJECT_DIR$/static/js/vue.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/书城模板/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="555" column="20" lean-forward="true" selection-start-line="555" selection-start-column="20" selection-end-line="672" selection-end-column="26" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/self.html" />
+    <entry file="file://$PROJECT_DIR$/tst.py" />
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14871">
+          <caret line="783" column="25" selection-start-line="783" selection-start-column="25" selection-end-line="783" selection-end-column="25" />
+          <folding>
+            <element signature="e#12420#12425#0#HTML" expanded="true" />
+            <element signature="e#14406#14411#0#HTML" expanded="true" />
+            <element signature="e#16390#16395#0#HTML" expanded="true" />
+            <element signature="e#22396#22402#0#HTML" expanded="true" />
+            <element signature="e#23617#23623#0#HTML" expanded="true" />
+            <element signature="e#24790#24796#0#HTML" expanded="true" />
+            <element signature="e#26027#26033#0#HTML" expanded="true" />
+            <element signature="e#27229#27235#0#HTML" expanded="true" />
+            <element signature="e#36629#36635#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/all-brands.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="1101" column="25" selection-start-line="1101" selection-start-column="25" selection-end-line="1101" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/blog-post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16978">
+          <caret line="897" column="25" selection-start-line="897" selection-start-column="25" selection-end-line="897" selection-end-column="25" />
+          <folding>
+            <element signature="e#12420#12425#0#HTML" expanded="true" />
+            <element signature="e#14406#14411#0#HTML" expanded="true" />
+            <element signature="e#16390#16395#0#HTML" expanded="true" />
+            <element signature="e#43612#43618#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25300">
+          <caret line="1335" column="25" selection-start-line="1335" selection-start-column="25" selection-end-line="1335" selection-end-column="25" />
+          <folding>
+            <element signature="e#12419#12424#0#HTML" expanded="true" />
+            <element signature="e#14405#14410#0#HTML" expanded="true" />
+            <element signature="e#16389#16394#0#HTML" expanded="true" />
+            <element signature="e#27821#27827#0#HTML" expanded="true" />
+            <element signature="e#53756#53762#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34249">
+          <caret line="1806" column="25" selection-start-line="1806" selection-start-column="25" selection-end-line="1806" selection-end-column="25" />
+          <folding>
+            <element signature="e#12422#12427#0#HTML" expanded="true" />
+            <element signature="e#14408#14413#0#HTML" expanded="true" />
+            <element signature="e#16392#16397#0#HTML" expanded="true" />
+            <element signature="e#53259#53265#0#HTML" expanded="true" />
+            <element signature="e#58416#58422#0#HTML" expanded="true" />
+            <element signature="e#68760#68766#0#HTML" expanded="true" />
+            <element signature="e#80765#80771#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12209">
+          <caret line="646" column="25" selection-start-line="646" selection-start-column="25" selection-end-line="646" selection-end-column="25" />
+          <folding>
+            <element signature="e#12421#12426#0#HTML" expanded="true" />
+            <element signature="e#14407#14412#0#HTML" expanded="true" />
+            <element signature="e#16391#16396#0#HTML" expanded="true" />
+            <element signature="e#29775#29781#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10651">
+          <caret line="564" column="25" selection-start-line="564" selection-start-column="25" selection-end-line="564" selection-end-column="25" />
+          <folding>
+            <element signature="e#12419#12424#0#HTML" expanded="true" />
+            <element signature="e#14405#14410#0#HTML" expanded="true" />
+            <element signature="e#16389#16394#0#HTML" expanded="true" />
+            <element signature="e#21112#21118#0#HTML" expanded="true" />
+            <element signature="e#21118#21124#0#HTML" expanded="true" />
+            <element signature="e#25808#25814#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22184">
+          <caret line="1171" column="25" selection-start-line="1171" selection-start-column="25" selection-end-line="1171" selection-end-column="25" />
+          <folding>
+            <element signature="e#12422#12427#0#HTML" expanded="true" />
+            <element signature="e#14408#14413#0#HTML" expanded="true" />
+            <element signature="e#16392#16397#0#HTML" expanded="true" />
+            <element signature="e#45527#45533#0#HTML" expanded="true" />
+            <element signature="e#46297#46303#0#HTML" expanded="true" />
+            <element signature="e#47117#47123#0#HTML" expanded="true" />
+            <element signature="e#47904#47910#0#HTML" expanded="true" />
+            <element signature="e#57606#57612#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/ihome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22184">
+          <caret line="1171" column="25" selection-start-line="1171" selection-start-column="25" selection-end-line="1171" selection-end-column="25" />
+          <folding>
+            <element signature="e#12422#12427#0#HTML" expanded="true" />
+            <element signature="e#14408#14413#0#HTML" expanded="true" />
+            <element signature="e#16392#16397#0#HTML" expanded="true" />
+            <element signature="e#45527#45533#0#HTML" expanded="true" />
+            <element signature="e#46297#46303#0#HTML" expanded="true" />
+            <element signature="e#47117#47123#0#HTML" expanded="true" />
+            <element signature="e#47904#47910#0#HTML" expanded="true" />
+            <element signature="e#57606#57612#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/magazine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17662">
+          <caret line="933" column="25" selection-start-line="933" selection-start-column="25" selection-end-line="933" selection-end-column="25" />
+          <folding>
+            <element signature="e#12422#12427#0#HTML" expanded="true" />
+            <element signature="e#14408#14413#0#HTML" expanded="true" />
+            <element signature="e#16392#16397#0#HTML" expanded="true" />
+            <element signature="e#23540#23546#0#HTML" expanded="true" />
+            <element signature="e#24109#24115#0#HTML" expanded="true" />
+            <element signature="e#31389#31394#0#HTML" expanded="true" />
+            <element signature="e#31457#31462#0#HTML" expanded="true" />
+            <element signature="e#31584#31589#0#HTML" expanded="true" />
+            <element signature="e#31709#31714#0#HTML" expanded="true" />
+            <element signature="e#31783#31788#0#HTML" expanded="true" />
+            <element signature="e#31844#31849#0#HTML" expanded="true" />
+            <element signature="e#31906#31911#0#HTML" expanded="true" />
+            <element signature="e#31972#31977#0#HTML" expanded="true" />
+            <element signature="e#32038#32043#0#HTML" expanded="true" />
+            <element signature="e#32212#32217#0#HTML" expanded="true" />
+            <element signature="e#32438#32443#0#HTML" expanded="true" />
+            <element signature="e#32556#32561#0#HTML" expanded="true" />
+            <element signature="e#32838#32843#0#HTML" expanded="true" />
+            <element signature="e#32910#32915#0#HTML" expanded="true" />
+            <element signature="e#33034#33039#0#HTML" expanded="true" />
+            <element signature="e#33586#33591#0#HTML" expanded="true" />
+            <element signature="e#33654#33659#0#HTML" expanded="true" />
+            <element signature="e#33781#33786#0#HTML" expanded="true" />
+            <element signature="e#33906#33911#0#HTML" expanded="true" />
+            <element signature="e#33980#33985#0#HTML" expanded="true" />
+            <element signature="e#34041#34046#0#HTML" expanded="true" />
+            <element signature="e#34103#34108#0#HTML" expanded="true" />
+            <element signature="e#34169#34174#0#HTML" expanded="true" />
+            <element signature="e#34235#34240#0#HTML" expanded="true" />
+            <element signature="e#34409#34414#0#HTML" expanded="true" />
+            <element signature="e#41918#41924#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/single-book.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1216">
+          <caret line="11" column="49" lean-forward="true" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding>
+            <element signature="e#12420#12425#0#HTML" expanded="true" />
+            <element signature="e#14406#14411#0#HTML" expanded="true" />
+            <element signature="e#16390#16395#0#HTML" expanded="true" />
+            <element signature="e#21937#21943#0#HTML" expanded="true" />
+            <element signature="e#23819#23825#0#HTML" expanded="true" />
+            <element signature="e#34402#34407#0#HTML" expanded="true" />
+            <element signature="e#34470#34475#0#HTML" expanded="true" />
+            <element signature="e#34597#34602#0#HTML" expanded="true" />
+            <element signature="e#34722#34727#0#HTML" expanded="true" />
+            <element signature="e#34796#34801#0#HTML" expanded="true" />
+            <element signature="e#34857#34862#0#HTML" expanded="true" />
+            <element signature="e#34919#34924#0#HTML" expanded="true" />
+            <element signature="e#34985#34990#0#HTML" expanded="true" />
+            <element signature="e#35051#35056#0#HTML" expanded="true" />
+            <element signature="e#35225#35230#0#HTML" expanded="true" />
+            <element signature="e#35451#35456#0#HTML" expanded="true" />
+            <element signature="e#35569#35574#0#HTML" expanded="true" />
+            <element signature="e#35851#35856#0#HTML" expanded="true" />
+            <element signature="e#35923#35928#0#HTML" expanded="true" />
+            <element signature="e#36047#36052#0#HTML" expanded="true" />
+            <element signature="e#36599#36604#0#HTML" expanded="true" />
+            <element signature="e#36667#36672#0#HTML" expanded="true" />
+            <element signature="e#36794#36799#0#HTML" expanded="true" />
+            <element signature="e#36919#36924#0#HTML" expanded="true" />
+            <element signature="e#36993#36998#0#HTML" expanded="true" />
+            <element signature="e#37054#37059#0#HTML" expanded="true" />
+            <element signature="e#37116#37121#0#HTML" expanded="true" />
+            <element signature="e#37182#37187#0#HTML" expanded="true" />
+            <element signature="e#37248#37253#0#HTML" expanded="true" />
+            <element signature="e#37422#37427#0#HTML" expanded="true" />
+            <element signature="e#42274#42280#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="649">
+          <caret line="617" column="8" lean-forward="true" selection-start-line="617" selection-start-column="8" selection-end-line="617" selection-end-column="8" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urls.txt" />
+    <entry file="file://$PROJECT_DIR$/pager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FlaskPath/Lib/site-packages/flask_restful/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/app/__init__.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/envs/FlaskPath/Lib/site-packages/flask/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="400" lean-forward="true" selection-start-line="400" selection-end-line="400" />
+          <folding>
+            <element signature="e#182#191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python基础阶段/Day18代码/test11-基于udp协议与飞q的通信.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python基础阶段/Day19代码/test02-基于TCP协议的套接字通信(服务端).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/python基础阶段/Day19代码/test02-基于TCP协议的套接字通信(客户端).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/api_v1_0/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="629" column="33" lean-forward="true" selection-start-line="629" selection-start-column="33" selection-end-line="629" selection-end-column="33" />
+          <folding>
+            <element signature="n#block#0;n#!!top" />
+            <element signature="n#block#1;n#!!top" />
+            <element signature="n#section#2;n#div#0;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

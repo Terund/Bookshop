@@ -1,0 +1,1338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bookshop</title>
+
+    <!-- Bootstrap -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/static/css/animate.min.css" rel="stylesheet">
+    <link href="/static/css/main.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+    <link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+ 
+    <div id="wrapper" >
+        <div id="page-content-wrapper" class="st-pusher">
+            <div class="st-pusher-after"></div>
+            <!-- ============================================== HEADER ============================================== -->
+	
+	<header class="header">
+
+		<nav class="navbar navbar-bookshop navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 hidden-xs hidden-sm">
+                <ul class="nav navbar-nav">
+                    <li><a href="single-book.html">Online Store</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="about.html">Delivery</a></li>
+                    <li><a href="contact.html">FAQs</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul><!-- /.nav -->
+            </div><!-- /.col -->
+            <div class="col-md-3 col-xs-10 col-sm-10 navbar-left">
+
+                <p class='text-center'><a href="#"><span class="icon glyphicon glyphicon-earphone"></span> +1-234-567-8910</a></p>
+
+            </div><!-- /.col -->
+            <div class="col-md-4 col-sm-2">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden-xs hidden-sm"><a href="contact.html">Wishlist</a></li>
+                    <li class="hidden-xs hidden-sm"><a href="single-book.html">Shopping Cart</a></li>
+                    <li class="hidden-xs hidden-sm"><a href="contact.html">My Account</a></li>
+                    <li class="icon icon-small hidden-xs"><a data-toggle="modal" data-target="#modal-login-big" href="#"><i class="icon fa fa-lock"></i></a></li>
+                    <li class="icon hidden-lg hidden-sm hidden-md"><a data-toggle="modal" data-target="#modal-login-small" href="#"><i class="icon fa fa-lock"></i></a></li>
+                </ul><!-- /.nav -->
+            </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</nav><!-- /.navbar -->
+
+
+<!-- Modal -->
+<div id="modal-login-big" class="modal login fade hidden-xs"  tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="text-center">
+                    <ul class="login-list clearfix ">
+                        <li class='active'>Login</li> 
+                        <li class="divider"></li>
+                        <li><a href="#">Sign Up</a></li>
+                    </ul><!-- /.login-list -->	
+                    <form role="form" class="inner-top-50">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1" class="sr-only">Email address</label>
+                            <input type="email" class="form-control bookshop-form-control" id="exampleInputEmail1" placeholder="Hezy Theme">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1" class="sr-only">Password</label>
+                            <input type="password" class="form-control bookshop-form-control" id="exampleInputPassword1">
+                        </div>
+
+                        <button type="button" class="btn btn-primary btn-uppercase">Login</button>
+                        <a href="#" class='forgot-password'>forgot password</a>
+                    </form>
+                </div>
+            </div><!-- /.modal-body -->
+            <div class="modal-footer">
+                <div class="text-center">
+                    <ul class='social-list text-center'>
+                        <li><a href="#" class="facebook"></a></li>
+                        <li><a href="#" class="google-plus"></a></li>
+                        <li><a href="#" class="twitter"></a></li>
+                        <li><a href="#" class="pinterest"></a></li>
+                    </ul><!-- /.social-list -->
+                </div>
+            </div><!-- /.modal-footer -->
+            <a href="#" data-dismiss="modal" class="remove-icon"><i class="fa fa-times"></i></a>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Modal -->
+<div id="modal-login-small" class="modal fade login login-xs hidden-sm hidden-lg"  tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="text-center">
+                    <div class="logo-holder">
+                        <h1 class="logo">BookShop</h1>
+                        <div class="logo-subtitle">
+                            <span>World of books</span>
+                        </div><!-- /.logo-subtitle --> 
+                    </div>
+
+                    <form role="form" class="inner-top-50">
+                        <div class="form-group">
+                            <label for="entername" class="sr-only">Email</label>
+                            <input type="email" class="form-control bookshop-form-control" id="entername" placeholder="Hezy Theme">
+                        </div>
+                        <div class="form-group">
+                            <label for="enterpassword" class="sr-only">Password</label>
+                            <input type="password" class="form-control bookshop-form-control" id="enterpassword">
+                        </div>
+
+                        <button type="button" class="btn btn-primary btn-block btn-uppercase">Login</button>
+                        <a href="#" class='forgot-password'>forgot password</a>
+                    </form>
+                </div>
+            </div><!-- /.modal-body -->
+            <div class="modal-footer">
+                <div class="text-center">
+                    <ul class='social-list text-center'>
+                        <li><a href="#" class="facebook"></a></li>
+                        <li><a href="#" class="google-plus"></a></li>
+                        <li><a href="#" class="twitter"></a></li>
+                        <li><a href="#" class="pinterest"></a></li>
+                    </ul><!-- /.social-list -->
+                </div>
+            </div><!-- /.modal-footer -->
+            <a href="#" data-dismiss="modal" class="remove-icon"><i class="fa fa-times"></i></a>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+		<div class="main-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4 col-md-4 top-search-holder m-t-10">
+						<!-- ============================================== SEARCH BAR ============================================== -->
+<form class="search-form" role="search">
+	<div class="form-group">
+		<label class="sr-only" for="page-search">Type your search here</label>
+		<input id="page-search" class="search-input form-control" type="search" placeholder="Search product">
+	</div>
+	<button class="page-search-button">
+		<span class="fa fa-search">
+			<span class="sr-only">Search</span>
+		</span>
+	</button>
+</form>
+<!-- ============================================== SEARCH BAR : END ============================================== -->					</div><!-- /.top-search-holder -->
+
+					<div class="col-xs-12 col-sm-4 col-md-4 text-center logo-holder">
+						<!-- ============================================== LOGO ============================================== -->
+<a href="home.html">
+	<h1 class="logo">BookShop</h1>
+	<div class="logo-subtitle">
+		<span>World of books</span>
+	</div><!-- /.logo-subtitle -->
+</a>
+<!-- ============================================== LOGO : END ============================================== -->					</div><!-- /.logo-holder -->
+
+					<div class="col-xs-12  col-md-2 header-shippment hidden-sm m-t-10">
+						<!-- ============================================== FREE DELIVERY ============================================== -->
+<div class="media free-delivery hidden-xs ">
+	<span class="media-left"><img src="/static/images/delivery-icon.png" height="48" width="48" alt=""></span>
+	<div class="media-body">
+		<h5 class="media-heading">Free delivery</h5>
+	</div>
+</div>
+<!-- ============================================== FREE DELIVERY : END ============================================== -->					</div><!-- /.header-shippment -->
+
+					<div class="col-xs-12 col-sm-4 col-md-2 animate-dropdown1 top-cart-row m-t-10">
+						<!-- ============================================== SHOPPING CART DROPDOWN ============================================== -->                              
+<ul class="clearfix shopping-cart-block list-unstyled">
+    <li class="dropdown">
+        <a class="menu-toggle-right clearfix" href="/.menu-toggle-right">
+            <span class="pull-right cart-right-block">
+                <img src="/static/images/cart-icon.png" alt="" width="46" height="39" />
+            </span><!-- /.cart-right-block -->
+            <span class="pull-right cart-left-block">
+                <span class="cart-block-heading">$345.39</span>
+                <span class="hidden-xs">2 items</span>
+            </span><!-- /.cart-left-block -->
+        </a>
+    </li>
+</ul> <!-- /.list-unstyled --> 
+<!-- ============================================== SHOPPING CART DROPDOWN : END ============================================== -->					</div><!-- /.top-cart-row -->
+				</div><!-- /.row -->
+
+			</div><!-- /.container -->
+
+		</div><!-- /.main-header -->
+
+		
+
+
+<!-- ============================================== NAVBAR ============================================== -->
+<div class="header-nav animate-dropdown">
+		<div class="container">			
+			<div class="nav-bg-class">
+				<!-- ============================================================= NAVBAR PRIMARY ============================================================= -->
+<nav class="yamm navbar navbar-primary animate-dropdown" role="navigation">
+    <div class="navbar-header">
+        <button id="btn-navbar-primary-collapse" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-primary-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div><!-- /.navbar-header -->
+    <div class="collapse navbar-collapse" id="navbar-primary-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="home.html">Books</a></li>
+            <li class="dropdown yamm-fw"><a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Textbooks</a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <div class="yamm-content">
+                            <div class="row">
+                                <div class="col-md-2 col-sm-6">  
+                                    <div class="section">
+                                        <h5 class="title">History</h5>
+                                        <ul class="links list-unstyled">
+                                            <li><a href="books.html">Indian Independence</a></li>
+                                            <li><a href="books.html">French Revolution</a></li>
+                                            <li><a href="books.html">Industrial Revolution</a></li>
+                                            <li><a href="books.html">Vietnam War</a></li>
+                                            <li><a href="books.html">World War I &amp; II</a></li>
+                                            <li><a href="books.html">Operation Desert Storm</a></li>
+                                        </ul>
+                                    </div><!-- /.section -->
+                                </div><!-- /.col -->
+
+                                <div class="col-md-2 col-sm-6">
+                                    <div class="section">
+                                        <h5 class="title">Science</h5>
+                                        <ul class="links list-unstyled">
+                                            <li><a href="books.html">Applied Science</a></li>
+                                            <li><a href="books.html">Astronomy</a></li>
+                                            <li><a href="books.html">Biotechnology</a></li>
+                                            <li><a href="books.html">Chemistry</a></li>
+                                            <li><a href="books.html">Cognitive Science</a></li>
+                                            <li><a href="books.html">Cosmology</a></li>
+                                        </ul>
+                                    </div><!-- /.section -->
+                                </div><!-- /.col -->
+
+                                <div class="col-md-2 col-sm-6">  
+                                    <div class="section">
+                                        <h5 class="title">History</h5>
+                                        <ul class="links list-unstyled">
+                                            <li><a href="books.html">Indian Independence</a></li>
+                                            <li><a href="books.html">French Revolution</a></li>
+                                            <li><a href="books.html">Industrial Revolution</a></li>
+                                            <li><a href="books.html">Vietnam War</a></li>
+                                            <li><a href="books.html">World War I &amp; II</a></li>
+                                            <li><a href="books.html">Operation Desert Storm</a></li>
+                                        </ul>
+                                    </div><!-- /.section -->
+                                </div><!-- /.col -->
+
+                                <div class="col-md-2 col-sm-6">
+                                    <div class="section">
+                                        <h5 class="title">Science</h5>
+                                        <ul class="links list-unstyled">
+                                            <li><a href="books.html">Applied Science</a></li>
+                                            <li><a href="books.html">Astronomy</a></li>
+                                            <li><a href="books.html">Biotechnology</a></li>
+                                            <li><a href="books.html">Chemistry</a></li>
+                                            <li><a href="books.html">Cognitive Science</a></li>
+                                            <li><a href="books.html">Cosmology</a></li>
+                                        </ul>
+                                    </div><!-- /.section -->
+                                </div><!-- /.col -->
+
+                                <div class="col-md-2 col-sm-6">
+                                    <div class="section">
+                                        <h5 class="title">History</h5>
+                                        <ul class="links list-unstyled">
+                                            <li><a href="books.html">Indian Independence</a></li>
+                                            <li><a href="books.html">French Revolution</a></li>
+                                            <li><a href="books.html">Industrial Revolution</a></li>
+                                            <li><a href="books.html">Vietnam War</a></li>
+                                            <li><a href="books.html">World War I &amp; II</a></li>
+                                            <li><a href="books.html">Operation Desert Storm</a></li>
+                                        </ul>
+                                    </div><!-- /.section -->
+                                </div><!-- /.col -->
+
+                                <div class="col-md-2 col-sm-6">
+                                    <div class="section">
+                                        <h5 class="title">Science</h5>
+                                        <ul class="links list-unstyled">
+                                            <li><a href="books.html">Applied Science</a></li>
+                                            <li><a href="books.html">Astronomy</a></li>
+                                            <li><a href="books.html">Biotechnology</a></li>
+                                            <li><a href="books.html">Chemistry</a></li>
+                                            <li><a href="books.html">Cognitive Science</a></li>
+                                            <li><a href="books.html">Cosmology</a></li>
+                                        </ul>
+                                    </div><!-- /.section -->
+                                </div><!-- /.col -->
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </li>
+             <li><a href="books.html">Nook Books</a></li>
+             <li class="hidden-sm"><a href="books.html">Audiobooks</a></li>
+             <li class="hidden-sm hidden-md"><a href="books.html">Magazines</a></li>
+             <li class="hidden-sm hidden-md"><a href="books.html">Movies</a></li>
+             <li><a href="books.html">Music</a></li>
+             <li class="dropdown navbar-right"><a href="#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Pages</a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <div class="yamm-content">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <ul class="links">
+                                        <li><a href="home.html">Home</a></li>
+                                        <li><a href="home-2.html">Home II</a></li>
+                                        <li><a href="books.html">Books</a></li>
+                                        <li><a href="books.html">Books II</a></li>
+                                        <li><a href="single-book.html">Book</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="blog-post.html">Blog Post</a></li>
+                                    </ul>
+                                </div>
+                            <div class="col-md-6 col-sm-6">
+                                <ul class="links">
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact-2.html">Contact II</a></li>
+                                    <li><a href="categories.html">Categories</a></li>
+                                    <li><a href="magazine.html">Magazine</a></li>
+                                    <li><a href="all-brands.html">All Brands</a></li>
+                                    <li><a href="error.html">Error</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                    
+                    
+                </ul>
+             </li>
+        </ul><!-- /.nav -->
+    </div><!-- /.collapse navbar-collapse -->   
+</nav><!-- /.yamm -->
+<!-- ============================================================= NAVBAR PRIMARY : END ============================================================= -->			</div><!-- /.nav-bg-class -->
+		</div><!-- /.container -->
+	
+</div><!-- /.header-nav -->
+<!-- ============================================== NAVBAR : END ============================================== -->
+	</header>
+
+
+<!-- ============================================== HEADER : END ============================================== -->           
+            <div class="content">
+	<div class="container">
+		<div class="row">
+			<ul class="breadcrumb text-center">
+				<li><a href="home.html">Home</a></li>
+				<li class="active">Books</li>
+			</ul><!-- /.breadcrumb -->
+
+			<div class="divider">
+			      <img class="img-responsive" src="/static/images/shadow.png" alt="">
+			</div><!-- /.divider -->
+		</div><!-- /.row -->
+
+		<div class="row m-t-20">
+            <!-- .slidet -->
+		     <!-- ========================================== SECTION �?HERO : END========================================= -->
+
+<div id="hero1" class='category-slider'>
+  <div id="owl-main" class="owl-carousel owl-theme">
+    <div class="item">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="col-md-7 col-sm-12">
+              <div class="book-in-shelf">
+                <div class="book-shelf"> 
+                 <div class="book-cover slider-book-cover m-t-20">
+                    <img class="img-responsive" alt="" src="/static/images/blank.gif" data-echo="/static/images/slider-images/01.png" > 
+                    <div class="fade"></div>
+                  </div> <!-- /.book-cover -->                        
+                </div><!-- /.book-shelf -->
+              </div><!-- /.book-in-shelf -->
+            </div><!-- /.col -->
+
+            <div class="col-md-5 col-sm-12">
+              <div class="clearfix caption vertical-center text-left">
+                <div class="slider-caption-heading">
+                  <h1 class="slider-title fadeInDown-1"><span>Hezy Theme:</span><br>What We Can All Do to Save America's</h1>
+                </div><!-- /.slider-caption-heading -->
+                  
+                       
+                  <div class="actions fadeInDown-2">
+                      <span class="book-price price">$9.59</span>               
+                          <div class="cart-action"> 
+                              <a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+                      </div>
+                  </div>
+                   
+               
+              </div><!-- /.slider-caption -->
+            </div><!-- /.col -->
+
+         
+          </div><!-- /.row -->
+
+        </div><!-- /.content.caption -->
+      </div><!-- /.container -->
+    </div><!-- /.item -->
+
+     <div class="item">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="col-md-7 col-sm-12">
+              <div class="book-in-shelf">
+                <div class="book-shelf"> 
+                 <div class="book-cover slider-book-cover m-t-20">
+                    <img class="img-responsive" alt="" src="/static/images/blank.gif" data-echo="/static/images/slider-images/01.png"> 
+                    <div class="fade"></div>
+                  </div> <!-- /.book-cover -->                        
+                </div><!-- /.book-shelf -->
+              </div><!-- /.book-in-shelf -->
+            </div><!-- /.col -->
+
+            <div class="col-md-5 col-sm-12">
+              <div class="clearfix caption vertical-center text-left">
+                <div class="slider-caption-heading">
+                  <h1 class="slider-title fadeInDown-1"><span>Hezy Theme:</span><br>What We Can All Do to Save America's</h1>
+                </div><!-- /.slider-caption-heading -->
+                 <div class="actions fadeInDown-2">
+                      <span class="book-price price">$9.59</span>               
+                          <div class="cart-action"> 
+                              <a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+                      </div>
+                  </div>
+              </div><!-- /.slider-caption -->
+            </div><!-- /.col -->
+
+         
+          </div><!-- /.row -->
+
+        </div><!-- /.content.caption -->
+      </div><!-- /.container -->
+    </div><!-- /.item -->
+
+
+     <div class="item">
+      <div class="container">
+        <div class="content">
+          <div class="row">
+            <div class="col-md-7 col-sm-12">
+              <div class="book-in-shelf">
+                <div class="book-shelf"> 
+                 <div class="book-cover slider-book-cover m-t-20">
+                    <img class="img-responsive" alt="" src="/static/images/blank.gif" data-echo="/static/images/slider-images/01.png"> 
+                    <div class="fade"></div>
+                  </div> <!-- /.book-cover -->                        
+                </div><!-- /.book-shelf -->
+              </div><!-- /.book-in-shelf -->
+            </div><!-- /.col -->
+
+            <div class="col-md-5 col-sm-12">
+              <div class="clearfix caption vertical-center text-left">
+                <div class="slider-caption-heading">
+                  <h1 class="slider-title fadeInDown-1"><span>Hezy Theme:</span><br>What We Can All Do to Save America's</h1>
+                </div><!-- /.slider-caption-heading -->
+                 <div class="actions fadeInDown-2">
+                      <span class="book-price price">$9.59</span>               
+                          <div class="cart-action"> 
+                              <a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+                      </div>
+                  </div>
+              </div><!-- /.slider-caption -->
+            </div><!-- /.col -->
+
+         
+          </div><!-- /.row -->
+
+        </div><!-- /.content.caption -->
+      </div><!-- /.container -->
+    </div><!-- /.item -->
+
+  </div>
+</div>
+
+
+    
+    
+
+    
+  
+
+		    <!-- /.slider -->
+		</div><!-- /.row -->
+
+		<div class="row control-bar wow fadeInUp inner-top-50">			
+			<div class="col-md-3 col-sm-6 col-xs-12 filter">
+				<div class="filter-product-block">
+					<a href="/.menu-toggle-left" class="menu-toggle-left filter-product-title dropdown-toggle menu-trigger2">filter products <i class="left fa fa-bars"></i></a>
+				</div><!-- /.filter-product-block -->
+			</div><!-- /.col -->
+			<div class="col-md-6 hidden-sm col-xs-12 text-center">
+				<p class="books-result">34,231 results in books</p>
+			</div><!-- /.col -->
+			<div class="col-md-3 col-sm-6 col-xs-12 sorting">
+				
+				<div class="le-select" id="sort">
+					<select data-placeholder="sort by popularity">
+						<option value="" selected="selected">Default sorting</option>
+						<option value="1">Sort by popularity </option>
+						<option value="2">Sort by average rating</option>
+						<option value="3">Sort by newness</option>
+						<option value="3">Sort by price: low to high</option>
+						<option value="3">Sort by price: high to low</option>
+					</select>
+				</div><!-- /.le-select -->
+
+			</div><!-- /.col -->
+	    </div><!-- /.row -->
+
+	    <div class="row">
+			<div class="module inner-top-sm wow fadeInUp" id="books-by-subject">
+			    <div class="module-heading home-page-module-heading">
+			        <h2 class="module-title home-page-module-title"><span>Books by Subject</span></h2>
+			        <p class="see-all-link"><a href="#">See All</a> &rarr;</p>
+			    </div><!-- /.module-heading -->
+				 <div class="module-body clearfix">					
+					<div class="books full-width text-center">
+				        <!-- .by subject -->
+					     	<div class="col-md-3 col-sm-4 books-by-subject"> 
+		<div class="book">      		
+			<div class="book-cover">
+				<img src="/static/images/blank.gif" data-echo="/static/images/book-covers/c1.jpg" alt="" width="140" height="212"  />
+			</div>
+			<div class="book-details clearfix">
+				<div class="book-description">
+					<h3 class="book-title"><a href="#">Art, Architecture & Photography</a></h3>
+					<p class="item-number">310 items</p>
+				</div>
+
+			</div>
+		</div>              
+	</div><!-- /.col -->
+
+	<div class="col-md-3 col-sm-4 books-by-subject">
+		<div class="book">	
+			<div class="book-cover">
+				<img src="/static/images/blank.gif" data-echo="/static/images/book-covers/c2.jpg" alt="" width="140" height="212"  />
+			</div>
+			<div class="book-details clearfix">
+				<div class="book-description">
+					<h3 class="book-title"><a href="#">Bibles & Bible Studies</a></h3>
+					<p class="item-number">199 items</p>
+				</div>
+
+			</div>            
+		</div>
+	</div><!-- /.col -->
+	<div class="col-md-3 col-sm-4 books-by-subject">
+		<div class="book">	
+			<div class="book">	
+				<div class="book-cover">
+					<img src="/static/images/blank.gif" data-echo="/static/images/book-covers/c3.jpg" alt="" width="140" height="212"  />
+				</div>
+				<div class="book-details clearfix">
+					<div class="book-description">
+						<h3 class="book-title"><a href="#">Biographies</a></h3>
+						<p class="item-number">1921 items</p>
+					</div>
+
+				</div>            
+			</div>
+		</div>
+	</div><!-- /.col -->
+	<div class="col-md-3 col-sm-4 books-by-subject">
+		<div class="book">	
+			<div class="book">	
+				<div class="book-cover">
+					<img src="/static/images/blank.gif" data-echo="/static/images/book-covers/c4.jpg" alt="" width="140" height="212"  />
+				</div>
+				<div class="book-details clearfix">
+					<div class="book-description">
+						<h3 class="book-title"><a href="#">Business & Money</a></h3>
+						<p class="item-number">466 items</p>
+					</div>
+
+				</div>            
+			</div>
+		</div>
+	</div><!-- /.col -->
+	<div class="col-md-3 col-sm-4 books-by-subject">  
+		<div class="book">	     		
+			<div class="book">	
+				<div class="book-cover">
+					<img src="/static/images/blank.gif" data-echo="/static/images/book-covers/c5.jpg" alt="" width="140" height="212"  />
+				</div>
+				<div class="book-details clearfix">
+					<div class="book-description">
+						<h3 class="book-title"><a href="#">Children`s Books</a></h3>
+						<p class="item-number">410 items</p>
+					</div>
+
+				</div>            
+			</div>
+		</div>              
+	</div><!-- /.col -->
+	<div class="col-md-3 col-sm-4 books-by-subject">
+		<div class="book">	
+			<div class="book">	
+				<div class="book-cover">
+					<img src="/static/images/blank.gif" data-echo="/static/images/book-covers/c6.jpg" alt="" width="140" height="212"  />
+				</div>
+				<div class="book-details clearfix">
+					<div class="book-description">
+						<h3 class="book-title"><a href="#">Computing & Internet</a></h3>
+						<p class="item-number">281 items</p>
+					</div>
+
+				</div>            
+			</div>
+		</div>
+	</div><!-- /.col -->
+
+	<div class="col-md-3 col-sm-4 books-by-subject">
+		<div class="book">	
+			<div class="book">	
+				<div class="book-cover">
+					<img src="/static/images/blank.gif" data-echo="/static/images/book-covers/c7.jpg" alt="" width="140" height="212"  />
+				</div>
+				<div class="book-details clearfix">
+					<div class="book-description">
+						<h3 class="book-title"><a href="#">Cookbooks, Food & Wine</a></h3>
+						<p class="item-number">774 items</p>
+					</div>
+
+				</div>            
+			</div>
+		</div>
+	</div><!-- /.col -->
+
+	<div class="col-md-3 col-sm-4 books-by-subject">
+		<div class="book">	
+			<div class="book">	
+				<div class="book-cover">
+					<img src="/static/images/blank.gif" data-echo="/static/images/book-covers/c8.jpg" alt="" width="140" height="212"  />
+				</div>
+				<div class="book-details clearfix">
+					<div class="book-description">
+						<h3 class="book-title"><a href="#">Crafts & Hobbies</a></h3>
+						<p class="item-number">51 items</p>
+					</div>
+
+				</div>            
+			</div>
+		</div>
+	</div><!-- /.col -->
+
+	<div class="col-md-3 col-sm-4 books-by-subject">
+		<div class="book">	
+			<div class="book">	
+				<div class="book-cover">
+					<img src="/static/images/blank.gif" data-echo="/static/images/book-covers/c9.jpg" alt="" width="140" height="212"  />
+				</div>
+				<div class="book-details clearfix">
+					<div class="book-description">
+						<h3 class="book-title"><a href="#">Crafts & Hobbies</a></h3>
+						<p class="item-number">51 items</p>
+					</div>
+
+				</div>            
+			</div>
+		</div>
+	</div><!-- /.col -->
+
+	<div class="col-md-3 col-sm-4 books-by-subject">
+		<div class="book">	
+			<div class="book">	
+				<div class="book-cover">
+					<img src="/static/images/blank.gif" data-echo="/static/images/book-covers/c10.jpg" alt="" width="140" height="212"  />
+				</div>
+				<div class="book-details clearfix">
+					<div class="book-description">
+						<h3 class="book-title"><a href="#">Crafts & Hobbies</a></h3>
+						<p class="item-number">51 items</p>
+					</div>
+
+				</div>            
+			</div>
+		</div>
+	</div><!-- /.col -->					    <!-- /.by subject -->
+					</div><!-- /.row -->
+		        </div><!-- /.module-body -->
+		    </div><!-- /.module -->
+
+
+
+		       <div class="module inner-top-50 wow fadeInUp" id="best-seller">
+				    <div class="module-heading  home-page-module-heading">
+				        <h2 class="module-title home-page-module-title"><span>Best Sellers</span></h2>
+				    </div><!-- /.module-heading -->
+				    <div class="module-body">
+			            <div class="books full-width">
+			            	<div class="clearfix text-center">
+					             <!-- .best month -->
+							     <div class="col-md-3 col-sm-4">
+	<div class="book">
+		<a href="single-book.html"><div class="book-cover">
+			<img width="140" height="212" alt="" src="/static/images/blank.gif" data-echo="/static/images/book-covers/01.jpg">
+		</div></a>
+		<div class="book-details clearfix">
+			<div class="book-description">
+				<h3 class="book-title"><a href="single-book.html">The Brief Wondrous Life of  Oscar Wao</a></h3>
+				<p class="book-subtitle">by <a href="single-book.html">Cormac McCarthy</a></p>
+			</div>
+			<div class="actions">
+				<span class="book-price price">$14.75</span>
+
+				<div class="cart-action"> 
+					<a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-md-3 col-sm-4">
+	<div class="book">
+		<a href="single-book.html"><div class="book-cover">
+			<img width="140" height="212" alt="" src="/static/images/blank.gif" data-echo="/static/images/book-covers/02.jpg">
+		</div></a>
+		<div class="book-details clearfix">
+			<div class="book-description">
+				<h3 class="book-title"><a href="single-book.html">Doctor Sleep </a></h3>
+				<p class="book-subtitle">by <a href="single-book.html">Stephen King</a></p>
+			</div>
+			<div class="actions">
+				<span class="book-price price">$14.45</span>
+				<div class="cart-action"> 
+					<a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-md-3 col-sm-4">
+	<div class="book">
+		<a href="single-book.html"><div class="book-cover">
+			<img width="140" height="212" alt="" src="/static/images/blank.gif" data-echo="/static/images/book-covers/03.jpg">
+		</div></a>
+		<div class="book-details clearfix">
+			<div class="book-description">
+				<h3 class="book-title"><a href="single-book.html">Wonder Hardcover</a></h3>
+				<p class="book-subtitle">by <a href="single-book.html">R. J. Palacio</a></p>
+			</div>
+			<div class="actions">
+				<span class="book-price price">$9.59</span>
+				<div class="cart-action"> 
+					<a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-md-3 col-sm-4">
+	<div class="book">
+		<a href="single-book.html"><div class="book-cover">
+			<img width="140" height="212" alt="" src="/static/images/blank.gif" data-echo="/static/images/book-covers/04.jpg">
+		</div></a>
+		<div class="book-details clearfix">
+			<div class="book-description">
+				<h3 class="book-title"><a href="single-book.html">The Brief Wondrous  Life of Oscar</a></h3>
+				<p class="book-subtitle">by <a href="single-book.html"> Hezy Theme</a></p>
+			</div>
+			<div class="actions">
+				<span class="book-price price">$12.00</span>
+				<div class="cart-action"> 
+					<a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-md-3 col-sm-4">
+	<div class="book">
+		<a href="single-book.html"><div class="book-cover">
+			<img width="140" height="212" alt="" src="/static/images/blank.gif" data-echo="/static/images/book-covers/05.jpg">
+		</div></a>
+		<div class="book-details clearfix">
+			<div class="book-description">
+				<h3 class="book-title"><a href="single-book.html">How Dogs Love Us: A  Neuroscientist and His Dog </a></h3>
+				<p class="book-subtitle">by <a href="single-book.html">Gregory Berns </a></p>
+			</div>
+			<div class="actions">
+				<span class="book-price price">$7.95</span>
+				<div class="cart-action"> 
+					<a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-md-3 col-sm-4">
+	<div class="book">
+		<a href="single-book.html"><div class="book-cover">
+			<img width="140" height="212" alt="" src="/static/images/blank.gif" data-echo="/static/images/book-covers/10.jpg">
+		</div></a>
+		<div class="book-details clearfix">
+			<div class="book-description">
+				<h3 class="book-title"><a href="single-book.html">From Kant to Husserl</a></h3>
+				<p class="book-subtitle">by <a href="single-book.html">Cormac McCarthy </a></p>
+			</div>
+			<div class="actions">
+				<span class="book-price price">$101.00</span>
+				<div class="cart-action"> 
+					<a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-md-3 col-sm-4">
+	<div class="book">
+		<a href="single-book.html"><div class="book-cover">
+			<img width="140" height="212" alt="" src="/static/images/blank.gif" data-echo="/static/images/book-covers/11.jpg">
+		</div></a>
+		<div class="book-details clearfix">
+			<div class="book-description">
+				<h3 class="book-title"><a href="single-book.html">Doctor Sleep</a></h3>
+				<p class="book-subtitle">by <a href="single-book.html">Stephen King</a></p>
+			</div>
+			<div class="actions">
+				<span class="book-price price">$19.45</span>
+				<div class="cart-action"> 
+					<a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-md-3 col-sm-4">
+	<div class="book">
+		<a href="single-book.html"><div class="book-cover">
+			<img width="140" height="212" alt="" src="/static/images/blank.gif" data-echo="/static/images/book-covers/12.jpg">
+		</div></a>
+		<div class="book-details clearfix">
+			<div class="book-description">
+				<h3 class="book-title"><a href="single-book.html">Wonder Hardcover</a></h3>
+				<p class="book-subtitle">by <a href="single-book.html">R.J.Palacio</a></p>
+			</div>
+			<div class="actions">
+				<span class="book-price price">$7.11</span>
+				<div class="cart-action"> 
+					<a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-md-3 col-sm-4">
+	<div class="book">
+		<a href="single-book.html"><div class="book-cover">
+			<img width="140" height="212" alt="" src="/static/images/blank.gif" data-echo="/static/images/book-covers/13.jpg">
+		</div></a>
+		<div class="book-details clearfix">
+			<div class="book-description">
+				<h3 class="book-title"><a href="single-book.html">The Brief Wondrous  Life of Oscar</a></h3>
+				<p class="book-subtitle">by <a href="single-book.html">Hezy Theme </a></p>
+			</div>
+			<div class="actions">
+				<span class="book-price price">$14.65</span>
+				<div class="cart-action"> 
+					<a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="col-md-3 col-sm-4">
+	<div class="book">
+		<a href="single-book.html"><div class="book-cover">
+			<img width="140" height="212" alt="" src="/static/images/blank.gif" data-echo="/static/images/book-covers/14.jpg">
+		</div></a>
+		<div class="book-details clearfix">
+			<div class="book-description">
+				<h3 class="book-title"><a href="single-book.html">How Dogs Love Us: A  Neuroscientist and His Dog </a></h3>
+				<p class="book-subtitle">by <a href="single-book.html">Gregory Berns </a></p>
+			</div>
+			<div class="actions">
+				<span class="book-price price">$7.95</span>
+				<div class="cart-action"> 
+					<a class="add-to-cart" title="Add to Cart" href="javascript:void(0);">Add to Cart</a>       
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>							    <!-- /.best month -->
+					        </div><!-- /.text-center -->
+			            </div><!-- /.row -->
+			        </div><!-- /.module-body -->
+			    </div><!-- /.module -->
+			
+
+			
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+
+    <!-- ============================================== TESTIMONIAL ============================================== -->
+<section class="customer-testimonial wow fadeInUp outer-bottom-xs light-bg">
+    <div id="testimonial" class="module container inner-top-xs">
+        <div class="module-heading home-page-module-heading">
+            <h2 class="module-title home-page-module-title"><span>Customer testimonals</span></h2>
+        </div><!-- /.module-heading -->
+        <div class="module-body">
+            <div class="row">
+                <div class="col-md-10 center-block">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="testimonial-block">
+                                <div class="inner-testimonial-block">
+                                    <div class="blockquote">
+                                        <div class="inner-left-xl">
+                                            <blockquote>
+                                                <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. </p>
+                                            </blockquote>
+                                        </div><!-- /.inner-left-xl -->
+                                    </div><!-- /.blockquote -->
+                                </div><!-- /.inner-testimonial-block -->
+                                <div class="row m-t-20">
+                                    <div class="col-md-10 author-block center-block">
+                                        <div class="row">
+                                            <div class="col-md-4 col-xs-5">
+                                                <div class='image'>
+                                                    <img class="img-responsive" src="/static/images/testimonials/author1.png" alt="">
+                                                </div><!-- /.image -->
+                                            </div><!-- /.col -->
+                                            <div class="col-md-8 col-xs-7">
+                                                <h5 class="author-name outer-top-xs">Philip Anthony Hopkins</h5>
+                                                <span>Coca-Cola</span>
+                                            </div><!-- /.col -->
+                                        </div><!-- /.row -->
+                                    </div><!-- /.col -->
+                                </div><!-- /.row -->
+                            </div><!-- /.testimonial-block -->
+                        </div><!-- /.col -->
+
+                         <div class="col-md-6 col-sm-6">
+                            <div class="testimonial-block">
+                                <div class="inner-testimonial-block">
+                                    <div class="blockquote">
+                                        <div class="inner-left-xl">
+                                            <blockquote>
+                                                <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. 
+                                                </p> 
+                                            </blockquote>
+                                        </div><!-- /.inner-left-xl -->
+                                    </div><!-- /.blockquote -->
+                                </div><!-- /.inner-testimonial-block -->
+                                <div class="row m-t-20">
+                                    <div class="col-md-10 author-block center-block">
+                                         <div class="row">
+                                            <div class="col-md-4 col-xs-5">
+                                                 <div class='image'>
+                                                      <img class="img-responsive" src="/static/images/testimonials/author2.png" alt="">
+                                                  </div><!-- /.image -->
+                                            </div><!-- /.col -->
+                                            <div class="col-md-8 col-xs-7">
+                                                <h5 class="author-name outer-top-xs">Steve Jobs</h5>
+                                                <span>Coca-Cola</span>
+                                            </div><!-- /.col -->
+                                        </div><!-- /.row -->
+                                    </div><!-- /.col -->
+                                </div><!-- /.row -->
+                            </div><!-- /.testimonial-block -->
+                            
+                         </div><!-- /.col -->
+                     </div><!-- /.row -->
+                </div><!-- /.col -->
+      
+            </div><!-- /.row -->
+        </div><!-- /.module-body -->
+    </div><!-- /.module -->
+</section>
+<!-- ============================================== TESTIMONIAL : END ============================================== -->
+	<!-- ============================================== FROM BLOG ============================================== -->
+<section class="blog wow fadeInUp">
+    <div id="blog" class="module container">
+        <div class="module-heading home-page-module-heading">
+            <h2 class="module-title home-page-module-title"><span>From the blog</span></h2>
+        </div><!-- /.module-heading -->
+        <div class="module-body inner-top-50">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 blog-image"><a href="#"><img src="/static/images/blank.gif" data-echo="/static/images/blog/1.jpg" alt="" class="blog1" width="199" height="177"></a></div>
+                        <div class="col-md-7 col-sm-7 blog-info">
+                            <h4 class="blog-heading"><a href="#">Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend</a></h4>
+                            <p class="comment-count">12 comments</p>
+                            <p class="text">Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. 
+                            </p>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+
+                </div><!-- /.col -->
+
+                 <div class="col-md-6 col-sm-6">                    
+                    <div class="row">
+                        <div class="col-md-5 col-sm-5 blog-image"><a href="#"><img src="/static/images/blank.gif" data-echo="/static/images/blog/2.jpg" alt="" class="blog2" width="199" height="177"></a></div>
+                        <div class="col-md-7 col-sm-7 blog-info">
+                            <h4 class="blog-heading"><a href="#">Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend</a></h4>
+                            <p class="comment-count">12 comments</p>
+                            <p class="text">Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. 
+                            </p>
+                        </div><!-- /.col -->
+                    </div><!-- /.row -->
+
+                </div><!-- /.col -->
+                
+                
+            </div><!-- /.row -->
+        </div><!-- /.module-body -->
+    </div><!-- /.module -->
+</section>
+<!-- ============================================== FROM BLOG : END ============================================== -->	
+</div><!-- /.content -->            <!-- ============================================== FOOTER ============================================== -->
+<footer class="footer clearfix">
+    <div class="margin-top-10">
+        <div class="container inner-top-vs">
+            <!-- ============================================== FOOTER-TOP ============================================== -->
+<div class="row">
+    <div class="col-md-3 col-sm-4">
+        <div class="footer-module">
+            <h4 class="footer-module-title">About this site</h4>
+            <div class="footer-module-body m-t-20 clearfix">
+                <p><span class="pull-left"><img src="/static/images/footer-logo.png" alt="" width="75" height="75"></span>A cras tincidunt, ut tellus et. Gravida scele risque, ipsum sed iacul is, nunc non namtellus. Placerat sed phasellus, purus purus elit. Cras ante eros. Erat vel. Donec vestibulum sed, vel euismod donec. </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-4">
+        <div class="footer-module">
+            <h4 class="footer-module-title">Categories</h4>
+            <div class="footer-module-body clearfix">
+                <ul class="list-unstyled link-list">
+                    <li><a href="#">Books</a></li>
+                    <li><a href="#">Text books</a></li>
+                    <li><a href="#">Nook books</a></li>
+                    <li><a href="#">Audiobooks</a></li>
+                    <li><a href="#">Magazines</a></li>
+                </ul>
+
+                <ul class="list-unstyled link-list">
+                    <li><a href="#">Movies</a></li>
+                    <li><a href="#">Music</a></li>
+                    <li><a href="#">Games</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-4 clearfix ">
+        <div class="footer-module">
+            <h4 class="footer-module-title">Information</h4>
+            <div class="footer-module-body clearfix">
+                <ul class="list-unstyled link-list">
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Giftcards</a></li>
+                </ul>
+
+                <ul class="list-unstyled link-list">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Store Locations</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-12">
+        <div class="footer-module">
+            <h4 class="footer-module-title">connect</h4>
+            <div class="footer-module-body clearfix">
+                <ul class="clearfix list-unstyled footer-social-contact">
+                    <li><a href="#" class="fa fa-facebook" title="Facebook"></a></li>
+                    <li><a href="#" class="fa fa-pinterest" title="Pinterest"></a></li>
+                    <li><a href="#" class="fa fa-linkedin" title="Linkedin"></a></li>
+                    <li><a href="#" class="fa fa-twitter" title="Twitter"></a></li>
+                    <li><a href="#" class="fa fa-google-plus" title="Google Plus"></a></li>
+                    <li><a href="#" class="fa fa-rss" title="Rss"></a></li>
+                    <li><a href="#" class="fa fa-instagram" title="Instagram"></a></li>
+
+                </ul>
+
+
+                <div class="inner-top-xs">
+                    <p>Subscribe to our weekly newsletter.</p>
+                    <form class="searchform" action="http://inspectelement.com/" method="get">
+                        <input class="s" type="text" placeholder="Email Address" name="s" value="">
+                        <input class="searchsubmit" type="submit" value="Subscribe">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ============================================== FOOTER-TOP : END ============================================== -->            <hr>
+            <!-- ============================================== FOOTER-BOTTOM ============================================== -->
+<div class="row">
+	<div class="col-md-12">
+		<div class="pull-left">
+			<ul class="payment-list list-unstyled">
+				<li><a href="#"><img src="/static/images/payments/1.png" class="img-responsive" height="22" alt=""></a></li>
+
+			</ul>
+		</div>
+		<p class="copyright-footer pull-right">&copy; 2014 Bookshop. All rights reserved. Made with love by <a href="#">Heztheme</a></p>
+	</div>
+</div>
+<!-- ============================================== FOOTER-BOTTOM : END ============================================== -->        </div>
+    </div>
+</footer>
+<!-- ============================================== FOOTER : END ============================================== -->        </div><!-- /.st-pusher -->
+            <!-- ============================================== TOGGLE RIGHT CONTENT ============================================== -->
+
+<div id="cart-dropdown-wrapper">
+	<nav id="menu1" class="cart-dropdown">
+		<h2 class="shopping-cart-heading">Shopping cart</h2>
+			<div class="cart-items">
+				<div class="cart-items-list">			
+					<ul>					
+						<li class="media">
+							
+							<div class="clearfix book cart-book">
+								<a href="single-book.html" class="media-left">
+									<div class="book-cover">
+										<img width="140" height="212" alt="" src="/static/images/blank.gif" data-echo="/static/images/book-covers/01.jpg">
+									</div>
+								</a>
+								<div class="media-body book-details">
+									<div class="book-description">
+										<h3 class="book-title"><a href="single-book.html">The Brief Wondrous Life of  Oscar Wao</a></h3>
+										<p class="book-subtitle">by <a href="single-book.html">Cormac McCarthy</a></p>
+										<p class="price m-t-20">$1,401.75</p>
+									</div>
+								</div>
+							</div>
+							
+							
+						</li>
+						<li class="media">
+							
+							<div class="clearfix book cart-book">
+								<a href="single-book.html" class="media-left">
+									<div class="book-cover">
+										<img width="140" height="212" alt="" src="/static/images/blank.gif" data-echo="/static/images/book-covers/02.jpg">
+									</div>
+								</a>
+								<div class="media-body book-details">
+									<div class="book-description">
+										<h3 class="book-title"><a href="single-book.html">The Brief Wondrous Life of  Oscar Wao</a></h3>
+										<p class="book-subtitle">by <a href="single-book.html">Cormac McCarthy</a></p>
+										<p class="price m-t-20">$14.45</p>
+									</div>
+								</div>
+							</div>
+							
+							
+						</li>  
+										
+					</ul>
+				</div>
+				<div class="cart-item-footer">
+					<h3 class='total text-center'>Total:<span>$1,416.00</span></h3>
+					<div class="proceed-to-checkout text-center">
+						<button type="button" class="btn btn-primary btn-uppercase">Proceed to Checkout</button>
+					</div>
+				</div>
+			
+		</div>
+		
+	</nav>
+</div>
+
+<!-- ============================================== TOGGLE RIGHT CONTENT : END ============================================== -->
+
+
+ 
+                           <!-- ============================================== TOGGLE LEFT CONTENT ============================================== -->
+<div id="filter-wrapper">
+	<nav id="menu2" class="filter">
+		<div class="filter-module">
+	        <div class="scrollbar1">		
+				<div class="filter-module-box">
+					<h5 class="filter-module-title">Filter</h5>
+					<div class='filter-module-body'>
+						
+						<div id="slider-range" class="m-t-20"></div>
+						<p class="m-t-20">
+						    <label for="amount">Price:</label>
+						    <input type="text" id="amount" readonly style="border:0; color:#333; font-weight:normal;">
+						</p>
+					</div><!-- /.filter-module-body-->
+				</div><!-- /.filter-module-box -->
+
+				<div class="filter-module-box">
+					<h5 class="filter-module-title">product Categories</h5>
+					<div class='filter-module-body'>
+						<ul>
+							<li><a href="#">Books</a></li>
+							<li><a href="#">Textbooks</a></li>
+							<li><a href="#">Audiobooks</a></li>
+							<li><a href="#">Magazines</a></li>
+							<li><a href="#">Movies</a></li>
+							<li><a href="#">Music</a></li>
+							<li><a href="#">Games</a></li>
+						</ul>	
+					</div><!-- /.filter-module-body-->
+				</div><!-- /.filter-module-box -->
+
+				<div class="filter-module-box">
+					<h5 class="filter-module-title">new releases</h5>
+					<div class='filter-module-body'>
+						<ul>
+							<li><a href="#">Last 30 days <span class="pull-right">100,358</span></a></li>
+							<li><a href="#">Last 90 days <span class="pull-right">308,425</span></a></li>
+							<li><a href="#">Coming Soon<span class="pull-right">55,123</span></a></li>
+						</ul>	
+					</div><!-- /.filter-module-body-->
+				</div><!-- /.filter-module-box -->
+
+				<div class="filter-module-box">
+					<h5 class="filter-module-title">format</h5>
+					<div class='filter-module-body'>
+						<ul>
+							<li><a href="#">paperback <span class="pull-right">24,874,630</span></a></li>
+							<li><a href="#">Hardcover <span class="pull-right">8,803,309</span></a></li>
+							<li><a href="#">Kindle Edition<span class="pull-right">1,360,419</span></a></li>
+							<li><a href="#">Audible Audio Edition<span class="pull-right">48,280</span></a></li>
+							<li><a href="#">Printed Access Code<span class="pull-right">20,666</span></a></li>
+							<li><a href="#">Audio CD<span class="pull-right">381,425</span></a></li>
+							<li><a href="#">Board Book<span class="pull-right">149,751</span></a></li>
+						</ul>	
+					</div><!-- /.filter-module-body-->
+				</div><!-- /.filter-module-box -->
+
+				<div class="filter-module-box">
+					<h5 class="filter-module-title">author</h5>
+					<div class='filter-module-body'>
+						<ul>
+							<li><a href="#">John Green <span class="pull-right">286</span></a></li>
+							<li><a href="#">J.J.Smith <span class="pull-right">3</span></a></li>
+							<li><a href="#">Laura Hillenbrand<span class="pull-right">5</span></a></li>
+							<li><a href="#">George R.R.Martin <span class="pull-right">377</span></a></li>
+							<li><a href="#">Dean Koontz <span class="pull-right">260</span></a></li>
+							<li><a href="#">Edward Klein <span class="pull-right">4</span></a></li>
+							<li><a href="#">Donna Tartt<span class="pull-right">5</span></a></li>
+
+						</ul>
+						<a href="#" class="filter-see-more">see more <i class="icon fa fa-plus"></i></a>	
+					</div><!-- /.filter-module-body-->
+				</div><!-- /.filter-module-box -->
+
+				<div class="filter-module-box">
+					<h5 class="filter-module-title">Language</h5>
+					<div class='filter-module-body'>
+						<ul>
+							<li><a href="#">English <span class="pull-right">18,610,000</span></a></li>
+							<li><a href="#">German <span class="pull-right">2,199,573</span></a></li>
+							<li><a href="#">French<span class="pull-right">2,185,922</span></a></li>
+							<li><a href="#">Spanish <span class="pull-right">1,171,681</span></a></li>
+							<li><a href="#">Italian <span class="pull-right">804,936</span></a></li>
+							<li><a href="#">Ulkrainian <span class="pull-right">910,814</span></a></li>
+							<li><a href="#">Chineses<span class="pull-right">562,811</span></a></li>
+
+						</ul>	
+						<a href="#" class="filter-see-more">see more <i class="icon fa fa-plus"></i></a>
+					</div><!-- /.filter-module-body-->
+				</div><!-- /.filter-module-box -->
+
+			</div><!-- /.scrollbar -->
+		</div><!-- /.filter-module -->
+
+	</nav><!-- /.filter-wrapper -->
+</div>
+<!-- ============================================== TOGGLE LEFT CONTENT : END ============================================== -->  
+                </div><!-- /#wrapper -->
+
+    <script src="/static/js/jquery-1.11.2.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <script src="/static/js/bootstrap-hover-dropdown.min.js"></script>
+    <script src="/static/js/owl.carousel.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.min.js"></script>
+    <script src="/static/js/jquery-ui.min.js"></script>
+    <script src="/static/js/jquery.customSelect.min.js"></script>    
+    <script src="/static/js/jquery.easing-1.3.min.js"></script>
+    <script src="/static/js/wow.min.js"></script>
+    <script src="/static/js/echo.min.js"></script>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>
